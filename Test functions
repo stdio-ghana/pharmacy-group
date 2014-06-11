@@ -1,0 +1,26 @@
+
+def test_isDrugAvailable():
+    assert isDrugAvailble("paracetamol") == True
+
+def test_AddDrug():
+    assert AddDrug("efpac") == "success" ;
+    assert isDrugAvailable("efpac") == True
+
+def test_RemoveDrug():
+    assert RemoveDrug("citro-c") == "success"
+    assert isDrugNotAvailable("citro-c") == True
+    
+def test_isExpired():
+    assert isExpired("paracetamol")  == True
+
+
+def test_isDrugNotAvailable( )
+    assert test_isDrugNotAvailable("vitamin C") == True
+
+
+def test_modify()
+    assert modify("vitamin C") == "success"
+
+def test_Patience
+    assert isValidPatient("John Duke") == True
+
