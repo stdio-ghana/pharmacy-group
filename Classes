@@ -1,0 +1,80 @@
+Medicine
+Drug _id : Integer
+BrandName : varchar
+
+Stock_id : Integer
+UnitValue : Integer
+get Drug_id()
+get Stock_id()
+set Drug_id()
+set BrandName()
+
+set UnitValue()
+display Details()
+verify_New _Medicine()
+
+
+
+
+
+
+Stock
+Stock_id : Integer
+Distributor_id : Integer
+Quantity : Integer
+Manufacture Date : Date
+Expiry Date : Date
+increase Stock()
+getStock()
+getManufacture Date()
+getExpiry Date()
+setManufacture Date()
+setExpiry Date()
+viewAdded Stock()
+verifyChanges()
+
+
+Distributor
+Distributor ID : Integer
+Distributor Name : varchar
+Distributor Address varchar
+Distributor Contact Number : Integer
+set Distributor Name()
+set Distributor Address()
+set Distributo Contact Number()
+set Distributor ID()
+get Distributor Name()
+get Distributor Address()
+get Distributo Contact Number()
+get Distributor ID()
+verify Distributor Exists()
+view Added Distributor()
+verify Changes()
+
+
+Dispense
+Transaction No. : Integer
+-Transaction Date : Date
+Patient _id : Integer
+get Transaction No()
+get Patient _id()
+get Transaction Date()
+set Transaction No()
+set Transaction Date()
+
+verifyTransaction()
+doneTransaction()
+
+Patient
+Patient_id:Integer
+PatientName : varchar
+Prescription: String 
+get Patient _id()
+get PatientName()
+getPrescription()
+set Patient_id()
+set PatientName()
+set Prescription()
+
+
+
